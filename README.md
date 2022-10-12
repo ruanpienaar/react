@@ -231,3 +231,13 @@ react components
 <Component some="prop" /> ( props.some | this.props.some )
 <Component><p>children props</p></Component> ( props.children | this.props.children )
 
+
+
+CSS /SCSS
+
+styles.scss - entrypoint
+_file.scss partial file ( part of our styles )
+
+css resets - allows diff browsers to start/show items in the same way
+https://necolas.github.io/normalize.css/
+

@@ -1,6 +1,11 @@
 
 # notes
 
+
+## running app
+
+yarn run dev-server
+
 - react component class definition needs to start with upper case letter
   as react uses the components in the JSX html, and lower case html elements are reserved from normal html, uppercase for React Components
 - render() is always needed when extending react.component
@@ -59,3 +64,12 @@ importing default
   - import bla from 'some.js'
   - import myOwnBlaName from 'some.js'
   - import bla, { named } from 'some.js'
+
+
+
+Css:
+
+read up on
+- viewport
+- flexbox
+- @media

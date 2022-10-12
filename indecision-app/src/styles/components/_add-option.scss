@@ -1,0 +1,35 @@
+.add-option-error {
+    color: $off-white;
+    font-style: italic;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+}
+
+.add-option {
+    display: flex;
+    flex-direction: column;
+    padding: $m-size;
+}
+
+.add-option__input {
+    background: $dark-blue;
+    border: none;
+    color: $off-white;
+    border-bottom: .3rem solid darken($dark-blue, 10%);
+    flex-grow: 1;
+    margin: 0 0 $s-size 0;
+    padding: $s-size;
+}
+
+// The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or
+// more media queries. With it, you specify a media query and a block of CSS to apply to the document
+//  if and only if the media query matches the device on which the content is being used.
+@media (min-width: $desktop-breakpoint) {
+    .add-option {
+        flex-direction: row;
+    }
+
+    .add-option__input {
+        margin: 0 $s-size 0 0;
+    }
+}

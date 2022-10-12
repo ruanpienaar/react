@@ -1,0 +1,22 @@
+// Partial file - start with a underscore
+
+html {
+    font-size: 62.5%; // This allows you to work with REM based sizes in 10-base
+    // 1rem = 16px
+    // 16*.625=10
+    // 2.2rem will then translate into 22px
+}
+
+body {
+    background-color: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
